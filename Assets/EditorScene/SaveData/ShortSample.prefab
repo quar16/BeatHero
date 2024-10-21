@@ -1,0 +1,393 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6204725319005317853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6204725319005317843}
+  - component: {fileID: 8441850372164038851}
+  m_Layer: 0
+  m_Name: ShortSample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6204725319005317843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204725319005317853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8441850372164038851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204725319005317853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3406ede51c8e7845969d81546914dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicID: 0
+  BPM: 184
+  Offset: 0.12
+  beatNodes:
+  - NodeStartTime: 375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+  - NodeStartTime: 1375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 2
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+    - BeatTime: 375
+      Type: 2
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 1
+      Direction: 1
+      SummonPos: 0
+  - NodeStartTime: 2375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 375
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+  - NodeStartTime: 3375
+    NodeEndTime: 125
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+  - NodeStartTime: 3625
+    NodeEndTime: 125
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 1
+      Direction: 1
+      SummonPos: 0
+  - NodeStartTime: 3875
+    NodeEndTime: 125
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+  - NodeStartTime: 4125
+    NodeEndTime: 125
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 1
+      Direction: 1
+      SummonPos: 0
+  - NodeStartTime: 4375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 312.5
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 500
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+  - NodeStartTime: 5375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 312.5
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 375
+      Type: 2
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 500
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+  - NodeStartTime: 6375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 312.5
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 500
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+  - NodeStartTime: 7375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 312.5
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 375
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 2
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 500
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+  - NodeStartTime: 8375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 312.5
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 500
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+  - NodeStartTime: 9375
+    NodeEndTime: 187.5
+    isLong: 0
+    beats:
+    - BeatTime: 62.5
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+    - BeatTime: 125
+      Type: 1
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 1
+      Direction: 1
+      SummonPos: 0
+  - NodeStartTime: 9750
+    NodeEndTime: 187.5
+    isLong: 0
+    beats:
+    - BeatTime: 62.5
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+    - BeatTime: 125
+      Type: 1
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 1
+      Direction: 1
+      SummonPos: 0
+  - NodeStartTime: 10125
+    NodeEndTime: 125
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+  - NodeStartTime: 10375
+    NodeEndTime: 500
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 0
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 250
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 312.5
+      Type: 1
+      Direction: 0
+      SummonPos: 0
+    - BeatTime: 437.5
+      Type: 0
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 500
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+  - NodeStartTime: 11375
+    NodeEndTime: 187.5
+    isLong: 0
+    beats:
+    - BeatTime: 62.5
+      Type: 1
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 125
+      Type: 1
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+  - NodeStartTime: 11750
+    NodeEndTime: 187.5
+    isLong: 0
+    beats:
+    - BeatTime: 62.5
+      Type: 1
+      Direction: 1
+      SummonPos: 0
+    - BeatTime: 125
+      Type: 1
+      Direction: 3
+      SummonPos: 0
+    - BeatTime: 187.5
+      Type: 1
+      Direction: 2
+      SummonPos: 0
+  - NodeStartTime: 12125
+    NodeEndTime: 125
+    isLong: 0
+    beats:
+    - BeatTime: 125
+      Type: 0
+      Direction: 2
+      SummonPos: 0

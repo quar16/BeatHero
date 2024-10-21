@@ -1,0 +1,1419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShortSample
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: a3406ede51c8e7845969d81546914dfc,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: musicID
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BPM
+    value: 184
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Offset
+    value: 0.12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.size
+    value: 19
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].NodeStartTime
+    value: 375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[0].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[1].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[1].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[2].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[2].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[0].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].NodeStartTime
+    value: 1375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[0].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[1].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[1].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[1].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[2].BeatTime
+    value: 375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[2].Type
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[2].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[3].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[3].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[3].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[1].beats.Array.data[3].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].NodeStartTime
+    value: 2375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[0].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[1].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[1].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[1].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[2].BeatTime
+    value: 375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[2].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[2].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[3].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[3].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[3].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[2].beats.Array.data[3].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[3].NodeStartTime
+    value: 3375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[3].NodeEndTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[3].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[3].beats.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[3].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[3].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[3].beats.Array.data[0].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[3].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[4].NodeStartTime
+    value: 3625
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[4].NodeEndTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[4].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[4].beats.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[4].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[4].beats.Array.data[0].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[4].beats.Array.data[0].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[4].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[5].NodeStartTime
+    value: 3875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[5].NodeEndTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[5].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[5].beats.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[5].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[5].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[5].beats.Array.data[0].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[5].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[6].NodeStartTime
+    value: 4125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[6].NodeEndTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[6].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[6].beats.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[6].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[6].beats.Array.data[0].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[6].beats.Array.data[0].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[6].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].NodeStartTime
+    value: 4375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[0].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[1].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[1].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[2].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[2].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[3].BeatTime
+    value: 312.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[3].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[3].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[3].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[4].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[4].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[4].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[4].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[5].BeatTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[5].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[5].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[7].beats.Array.data[5].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].NodeStartTime
+    value: 5375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.size
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[0].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[1].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[1].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[2].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[2].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[3].BeatTime
+    value: 312.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[3].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[3].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[3].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[4].BeatTime
+    value: 375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[4].Type
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[4].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[4].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[5].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[5].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[5].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[5].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[6].BeatTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[6].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[6].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[8].beats.Array.data[6].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].NodeStartTime
+    value: 6375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[0].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[1].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[1].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[2].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[2].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[3].BeatTime
+    value: 312.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[3].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[3].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[3].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[4].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[4].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[4].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[4].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[5].BeatTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[5].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[5].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[9].beats.Array.data[5].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].NodeStartTime
+    value: 7375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.size
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[0].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[1].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[1].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[2].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[2].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[3].BeatTime
+    value: 312.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[3].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[3].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[3].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[4].BeatTime
+    value: 375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[4].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[4].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[4].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[5].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[5].Type
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[5].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[5].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[6].BeatTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[6].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[6].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[10].beats.Array.data[6].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].NodeStartTime
+    value: 8375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[0].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[1].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[1].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[2].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[2].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[3].BeatTime
+    value: 312.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[3].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[3].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[3].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[4].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[4].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[4].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[4].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[5].BeatTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[5].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[5].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[11].beats.Array.data[5].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].NodeStartTime
+    value: 9375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].NodeEndTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[0].BeatTime
+    value: 62.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[0].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[0].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[1].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[1].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[2].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[2].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[12].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].NodeStartTime
+    value: 9750
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].NodeEndTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[0].BeatTime
+    value: 62.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[0].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[0].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[1].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[1].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[2].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[2].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[13].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[14].NodeStartTime
+    value: 10125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[14].NodeEndTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[14].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[14].beats.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[14].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[14].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[14].beats.Array.data[0].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[14].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].NodeStartTime
+    value: 10375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].NodeEndTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[0].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[1].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[1].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[2].BeatTime
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[2].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[3].BeatTime
+    value: 312.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[3].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[3].Direction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[3].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[4].BeatTime
+    value: 437.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[4].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[4].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[4].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[5].BeatTime
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[5].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[5].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[15].beats.Array.data[5].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].NodeStartTime
+    value: 11375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].NodeEndTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[0].BeatTime
+    value: 62.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[0].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[0].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[1].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[1].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[2].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[2].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[16].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].NodeStartTime
+    value: 11750
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].NodeEndTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[0].BeatTime
+    value: 62.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[0].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[0].Direction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[1].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[1].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[1].Direction
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[1].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[2].BeatTime
+    value: 187.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[2].Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[2].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[17].beats.Array.data[2].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[18].NodeStartTime
+    value: 12125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[18].NodeEndTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[18].isLong
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[18].beats.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[18].beats.Array.data[0].BeatTime
+    value: 125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[18].beats.Array.data[0].Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[18].beats.Array.data[0].Direction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beatNodes.Array.data[18].beats.Array.data[0].SummonPos
+    value: 0
+    objectReference: {fileID: 0}
